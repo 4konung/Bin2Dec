@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <title>Bin2Dec</title>
+</head>
+<body>
+<div class="container">
+    <div class="converter-wrapper">
+        <div class="converter">
+            <div class="converter-content">
+                <h2 class="converter-title text_main">Bin2Dec converter</h2>
+                <form action="" id="converter-form">
+                    <div class="input-row">
+                        <div class="input-wrapper">
+                            <label for="binary-number-input">
+                                Binary number:
+                            </label>
+                            <input class="input" id="binary-number-input" type="text">
+                        </div>
+                        <span id="input-hint" class="input-hint text_secondary hide"></span>
+                    </div>
+
+                    <div class="input-row">
+                        <div class="input-wrapper">
+                            <label for="decimal-number-output">
+                                Decimal number:
+                            </label>
+                            <input class="input" id="decimal-number-output" type="text" readonly>
+                        </div>
+                    </div>
+                    <div class="actions-row">
+                        <button id="convert" class="converter-submit" type="submit">Convert</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
