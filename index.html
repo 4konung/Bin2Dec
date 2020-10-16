@@ -9,8 +9,39 @@
     <title>Bin2Dec</title>
 </head>
 <body>
-<p>Hello World!</p>
+<div class="container">
+    <div class="converter-wrapper">
+        <div class="converter">
+            <div class="converter-content">
+                <h2 class="converter-title text_main">Bin2Dec converter</h2>
+                <form action="" id="converter-form">
+                    <div class="input-row">
+                        <div class="input-wrapper">
+                            <label for="binary-number-input">
+                                Binary number:
+                            </label>
+                            <input class="input" id="binary-number-input" type="text">
+                        </div>
+                        <span class="input-hint text_secondary"></span>
+                    </div>
 
+                    <div class="input-row">
+                        <div class="input-wrapper">
+                            <label for="decimal-number-output">
+                                Decimal number:
+                            </label>
+                            <input class="input" id="decimal-number-output" type="text" readonly>
+                        </div>
+                    </div>
+                    <div class="actions-row">
+                        <button id="convert" class="converter-submit" type="submit">Convert</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
